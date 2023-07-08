@@ -45,3 +45,12 @@ class Conta:
     def numero(self):
         return self.__numero
 
+    @staticmethod
+    def codigo_banco():
+        return "001"
+
+    @staticmethod
+    def codigo_bancos():
+        return {'BB':'001', 'Caixa':'104', 'Bradesco':'237'}
+
+
